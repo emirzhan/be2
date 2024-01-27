@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Agency - Manage Tours</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container mt-4">
+    <h2>Manage Tours</h2>
+<!-- Add these fields within the form in your travelAgency.html -->
+<div class="form-group">
+    <label for="country">Country:</label>
+    <select class="form-control" id="country" name="country" required>
+      <!-- Populate with country options dynamically if needed -->
+      <option value="france">France</option>
+      <option value="italy">Italy</option>
+      <!-- Add more options as needed -->
+    </select>
+  </div>
+  
+  <div class="form-group">
+    <label for="city">City:</label>
+    <input type="text" class="form-control" id="city" name="city" required>
+  </div>
+  
+  <div class="form-group">
+    <label for="hotel">Hotel:</label>
+    <input type="text" class="form-control" id="hotel" name="hotel" required>
+  </div>
+  
+  <div class="form-group">
+    <label for="arrivalDate">Arrival Date:</label>
+    <input type="date" class="form-control" id="arrivalDate" name="arrivalDate" required>
+  </div>
+  
+  <div class="form-group">
+    <label for="departureDate">Departure Date:</label>
+    <input type="date" class="form-control" id="departureDate" name="departureDate" required>
+  </div>
+  
+  <div class="form-group">
+    <label for="adults">Adults:</label>
+    <input type="number" class="form-control" id="adults" name="adults" required>
+  </div>
+  
+  <div class="form-group">
+    <label for="children">Children:</label>
+    <input type="number" class="form-control" id="children" name="children" required>
+  </div>
+  
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

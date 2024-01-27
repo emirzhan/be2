@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Travel Agency</title>
+</head>
+
+<body>
+    <nav>
+        <a href="/">Home</a>
+    </nav>
+
+    <div class="container">
+        <form action="/travelagency" method="post" id="travelForm">
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="default">Choose...</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+                <option value="japan">Japan</option>
+            </select>
+
+            <label for="city">City:</label>
+            <select id="city" name="city">
+                <option value="default">Choose...</option>
+            </select>
+
+            <label for="hotel">Hotel:</label>
+            <select id="hotel" name="hotel">
+                <option value="default">Choose...</option>
+            </select>
+
+            <label for="arrivalDate">Arrival Date:</label>
+            <input type="date" id="arrivalDate" name="arrivalDate">
+
+            <label for="departureDate">Departure Date:</label>
+            <input type="date" id="departureDate" name="departureDate">
+
+            <label for="adults">Adults:</label>
+            <input type="number" id="adults" name="adults" value="1">
+
+            <label for="children">Children:</label>
+            <input type="number" id="children" name="children" value="0">
+
+            <button type="submit">Add Tour</button>
+        </form>
+
+        <form action="/travelagency" method="put" id="editTourForm">
+            <label for="editTourId">Tour ID:</label>
+            <input type="text" id="editTourId" name="id" placeholder="Enter Tour ID" required>
+
+            <!-- Additional form fields for editing -->
+            <!-- Customize these fields based on your requirements -->
+
+            <button type="submit">Edit Tour</button>
+        </form>
+
+        <form action="/travelagency" method="delete" id="deleteTourForm">
+            <label for="deleteTourId">Tour ID:</label>
+            <input type="text" id="deleteTourId" name="id" placeholder="Enter Tour ID" required>
+
+            <button type="submit">Delete Tour</button>
+        </form>
+
+        <div class="result" id="result" style="display: none;">
+            <!-- Availability -->
+            <div class="availability" id="availability">
+                <h3>Availability</h3>
+                <p id="availabilityMessage">Availability message goes here</p>
+            </div>
+
+            <!-- Weather -->
+            <div class="weather" id="weather">
+                <h3>Weather</h3>
+                <p id="weatherCondition">Weather condition goes here</p>
+            </div>
+
+            <!-- Total Cost -->
+            <div class="total-cost" id="totalCost">
+                <h3>Total Cost</h3>
+                <p id="tourCost">Tour cost goes here</p>
+            </div>
+        </div>
+
+        <div class="history" id="history">
+            <h2>Tour History</h2>
+            <ul id="historyList">
+                <!-- Tour history will be displayed here dynamically using JavaScript -->
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>Smagulov Emirzhan - SE 2208</p>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>

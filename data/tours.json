@@ -1,0 +1,129 @@
+[
+  {
+    "id": 1,
+    "country": "USA",
+    "city": "New York",
+    "hotel": "Sheraton",
+    "adults": 2,
+    "children": 1,
+    "availability": "Available",
+    "weatherConditions": "Clear sky",
+    "tourCost": 250,
+    "timestamp": "2024-02-01 12:30:00"
+  },
+  {
+    "id": 2,
+    "country": "UK",
+    "city": "London",
+    "hotel": "Marriott",
+    "adults": 1,
+    "children": 0,
+    "availability": "Available",
+    "weatherConditions": "Rainy",
+    "tourCost": 120,
+    "timestamp": "2024-02-02 14:45:00"
+  },
+  {
+    "id": 3,
+    "country": "Japan",
+    "city": "Tokyo",
+    "hotel": "Tokyo Hotel",
+    "adults": 3,
+    "children": 2,
+    "availability": "Available",
+    "weatherConditions": "Partly cloudy",
+    "tourCost": 400,
+    "timestamp": "2024-02-03 09:15:00"
+  },
+  {
+    "id": 1706358836636,
+    "availability": "Available",
+    "weatherConditions": "Weather data unavailable",
+    "tourCost": null,
+    "timestamp": "2024-01-27 18:33:56"
+  },
+  {
+    "id": 1706358872216,
+    "availability": "Available",
+    "weatherConditions": "Weather data unavailable",
+    "tourCost": null,
+    "timestamp": "2024-01-27 18:34:32"
+  },
+  {
+    "id": 1706358872669,
+    "availability": "Available",
+    "weatherConditions": "Weather data unavailable",
+    "tourCost": null,
+    "timestamp": "2024-01-27 18:34:32"
+  },
+  {
+    "id": 1706358878380,
+    "availability": "Available",
+    "weatherConditions": "Weather data unavailable",
+    "tourCost": null,
+    "timestamp": "2024-01-27 18:34:38"
+  },
+  {
+    "id": 1706359302309,
+    "availability": "Available",
+    "weatherConditions": "Weather data unavailable",
+    "tourCost": null,
+    "timestamp": "2024-01-27 18:41:42"
+  },
+  {
+    "id": 1706359364210,
+    "availability": "Available",
+    "weatherConditions": "Weather data unavailable",
+    "tourCost": null,
+    "timestamp": "2024-01-27 18:42:44"
+  },
+  {
+    "id": 1706361001145,
+    "availability": "Available",
+    "weatherConditions": "Weather data unavailable",
+    "tourCost": null,
+    "timestamp": "2024-01-27 19:10:01"
+  },
+  {
+    "id": 1706361059699,
+    "availability": "Available",
+    "weatherConditions": "Weather data unavailable",
+    "tourCost": null,
+    "timestamp": "2024-01-27 19:10:59"
+  },
+  {
+    "id": 1706361307827,
+    "availability": "Available",
+    "weatherConditions": "Weather data unavailable",
+    "tourCost": null,
+    "timestamp": "2024-01-27 19:15:07"
+  },
+  {
+    "id": 1706361352945,
+    "availability": "Available",
+    "weatherConditions": "Weather data unavailable",
+    "tourCost": null,
+    "timestamp": "2024-01-27 19:15:52"
+  },
+  {
+    "id": 1706361424455,
+    "availability": "Available",
+    "weatherConditions": "Weather data unavailable",
+    "tourCost": null,
+    "timestamp": "2024-01-27 19:17:04"
+  },
+  {
+    "id": 1706361459403,
+    "availability": "Available",
+    "weatherConditions": "Weather data unavailable",
+    "tourCost": null,
+    "timestamp": "2024-01-27 19:17:39"
+  },
+  {
+    "id": 1706361495382,
+    "availability": "Available",
+    "weatherConditions": "Weather data unavailable",
+    "tourCost": null,
+    "timestamp": "2024-01-27 19:18:15"
+  }
+]
